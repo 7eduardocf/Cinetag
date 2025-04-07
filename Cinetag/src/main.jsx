@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import AppRoutes from './routs'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1>Olá Mundo!</h1>
+    <AppRoutes/>
   </StrictMode>,
 )
