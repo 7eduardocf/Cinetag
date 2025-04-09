@@ -1,0 +1,9 @@
+.texto{
+    display: flex;
+    justify-content: center;
+}
+.texto h1{
+    color: var(--preto);
+    font-size: 32px;
+    font-weight: 500;
+}
