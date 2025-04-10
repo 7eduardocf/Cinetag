@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     background-color: var(--preto);
+    color: var(--branco);
 }
 .paragrafo{
     font-size: 18px;
     font-weight: 400;
-    color: var(--branco);
 }
