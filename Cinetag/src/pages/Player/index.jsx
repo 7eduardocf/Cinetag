@@ -3,6 +3,7 @@ import styles from "./Player.module.css"
 import { useParams } from "react-router-dom"
 import videos from "json/db.json"
 import Titulo from "components/Titulo"
+import NaoEncontrada from "pages/Nao-encontrada"
 
 function Player() {
 
@@ -11,7 +12,9 @@ function Player() {
         return video.id === Number(paramentros.id)
     })
     console.log(video);
-
+    if(!video){
+        return <NaoEncontrada/>
+    }
 
     return (
         <>
